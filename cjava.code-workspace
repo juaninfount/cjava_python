@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "cjava_python",
+			"path": "cjava_python"
+		},
+		{
+			"name": "cjava_python_developer",
+			"path": "cjava_python_developer"
+		}		
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Django</title> 
+  </head>
+  <body>
+  
+    <h1>Plantilla Django</h1>
+
+    {% block content %}
+    
+    {% if submitted %}    
+        <p>Sr(a) , tiene años de edad y vive en  </p> 
+
+    {% else %}
+    <form name="form" method="POST" action="" novalidate>
+        {% csrf_token %}
+        <table>         
+           {{form.as_table}}
+           <tr>
+               <td>&nbsp;</td>
+               <td><input type="submit" value="Submit"  /></td> 
+           </tr>
+       </table> 
+                                               
+       
+    </form>
+
+    {% endif %}
+
+    {% endblock %}
+  </body>
+</html>

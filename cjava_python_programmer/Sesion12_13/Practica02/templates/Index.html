@@ -1,0 +1,14 @@
+﻿$def with (form)
+
+<html>
+    <head>
+        <title>Informacion de personas</title></head>
+    <body>
+        <h1>Informacion de personas</h1>
+        <label><b>Ingrese los siguentes datos:</b></label>
+        <form name="main" method="post" action="add">
+            $:form.render()
+            <input type="submit" >Registrar</input>
+        </form>
+    </body>
+</html>
