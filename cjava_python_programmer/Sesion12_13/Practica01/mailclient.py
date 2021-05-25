@@ -1,3 +1,7 @@
+"""
+en  https://myaccount.google.com/lesssecureapps?gar=1, habilitar el envio de correos desde aplicaciones menos seguras (emisor)
+"""
+
 import smtplib
 from datetime import datetime 
 

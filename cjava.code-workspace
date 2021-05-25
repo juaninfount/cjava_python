@@ -7,7 +7,13 @@
 		{
 			"name": "cjava_python_developer",
 			"path": "cjava_python_developer"
-		}		
+		},
+		{
+			"path": "cjava_python_expert"
+		},
+		{
+			"path": "cjava_python_programmer"
+		}
 	],
 	"settings": {
 		"git.ignoreLimitWarning": true

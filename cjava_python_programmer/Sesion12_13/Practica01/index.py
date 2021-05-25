@@ -1,4 +1,8 @@
-﻿import web
+﻿
+"""
+
+"""
+import web
 from web import form
 import mailclient
 
@@ -19,7 +23,7 @@ myform = form.Form(
 
 class index:
     def GET(self):
-        form = myform()                
+        form = myform()
         return render.index(form)
         
     def POST(self):        
